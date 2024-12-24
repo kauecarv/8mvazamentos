@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["var(--font-poppins)"],
+        dmsans: ["var(--font-dmsans)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
