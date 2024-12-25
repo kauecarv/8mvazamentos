@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function DesignChannels() {
   return (
     <motion.section
-      className="py-4 md:py-8 px-4 md:px-28 mb-16 justify-center items-center"
+      className="py-4 md:py-8 px-4 md:px-28 md:mb-16 justify-center items-center"
     >
       <div className="flex flex-col justify-between items-center gap-12 md:gap-8 md:flex-row">
         <motion.div

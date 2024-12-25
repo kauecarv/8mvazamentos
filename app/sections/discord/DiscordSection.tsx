@@ -12,7 +12,7 @@ export default function DiscordSection() {
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="py-4 mt-72 md:mt-0 md:py-8 px-4 md:px-28 mb-16 justify-center items-center"
+      className="py-4 mt-72 md:mt-0 md:py-8 px-4 md:px-28 md:mb-16 justify-center items-center"
     >
       <div className="flex flex-col justify-between items-center gap-12 md:gap-8 md:flex-row">
         <motion.div 
