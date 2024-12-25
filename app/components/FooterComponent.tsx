@@ -11,7 +11,7 @@ export default function FooterComponent() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="text-white py-4"
+      className="text-white py-4 hidden md:block"
     >
       <div className="container mx-auto px-24 flex items-center justify-between">
         <motion.div 
@@ -30,12 +30,12 @@ export default function FooterComponent() {
         </motion.div>
 
         <div className="flex items-center gap-6">
-      
-
           <motion.div 
             className="flex items-center gap-1"
           >
-            <span className="inline-flex items-center gap-1.5 font-dmsans font-normal text-[#A3A3A3] text-sm">Feito com <BiHeart className="text-red-500 text-xl"/> por </span>
+            <span className="inline-flex items-center gap-1.5 font-dmsans font-normal text-[#A3A3A3] text-sm">
+              Feito com <BiHeart className="text-red-500 text-xl"/> por 
+            </span>
             <Link
               href="https://spacefy.com.br"
               target="_blank"

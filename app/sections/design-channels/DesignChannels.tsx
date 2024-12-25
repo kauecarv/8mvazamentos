@@ -6,18 +6,11 @@ import { motion } from "framer-motion";
 export default function DesignChannels() {
   return (
     <motion.section
-      initial={{ y: 100, opacity: 0 }}
-      whileInView={{ y: 0, opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
-      className="py-2 px-4 md:px-28 md:py-24 mb-10 justify-center items-center"
+      className="py-4 md:py-8 px-4 md:px-28 mb-16 justify-center items-center"
     >
-      <div className="flex flex-col justify-between items-center md:flex-row">
+      <div className="flex flex-col justify-between items-center gap-12 md:gap-8 md:flex-row">
         <motion.div
-          initial={{ scale: 0.8, opacity: 0 }}
-          whileInView={{ scale: 1, opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.5 }}
+          className="w-[200px] sm:w-[250px] md:w-[442px]"
         >
           <Image
             src={"/assets/design_channels_banner.svg"}
@@ -28,27 +21,15 @@ export default function DesignChannels() {
           />
         </motion.div>
         <motion.div
-          initial={{ x: -50, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex flex-col max-w-3xl"
+          className="flex flex-col w-full max-w-3xl text-center md:text-left"
         >
           <motion.h2
-            initial={{ y: 20, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-5xl font-dmsans font-semibold text-white leading-tight mb-4"
+            className="text-3xl md:text-5xl font-dmsans font-semibold text-white leading-tight mb-6"
           >
             Lorem ipsum <span className="text-[#63B8E3]">dolor</span>, sit amet.
           </motion.h2>
           <motion.p
-            initial={{ y: 20, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-xl font-dmsans font-normal max-w-2xl text-[#A3A3A3]"
+            className="text-base md:text-xl font-dmsans font-normal mb-8 max-w-2xl text-[#A3A3A3]"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             egestas mauris ac odio rutrum gravida. Nullam vitae turpis semper,

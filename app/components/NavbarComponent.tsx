@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { PiListBold } from "react-icons/pi";
 import { motion } from "framer-motion";
 
 export default function NavbarComponent() {
@@ -22,14 +21,7 @@ export default function NavbarComponent() {
         <Image src={'/assets/8m_logo.svg'} className="transition duration-300 hover:scale-105 hover:cursor-pointer" width={64} height={64} alt="Logo 8M" />
       </motion.div>
 
-      <motion.button
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ delay: 0.4, duration: 0.3 }}
-        className="md:hidden block"
-      >
-        <PiListBold className="text-2xl text-white" />
-      </motion.button>
+    
       
       <motion.div
         initial={{ x: 50, opacity: 0 }}

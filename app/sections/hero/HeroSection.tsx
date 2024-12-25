@@ -8,7 +8,7 @@ import { BsStars } from "react-icons/bs";
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen max-h-[90vh]">
+    <section className="relative h-screen max-h-[90vh] mb-24 lg:mb-0">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.1 }}
@@ -16,7 +16,7 @@ export default function HeroSection() {
         className="absolute -top-20 right-0 w-[600px] h-[600px] bg-[#63B8E3] blur-[180px] rounded-full"
       />
       
-      <div className="container mx-auto px-4 md:px-20 pt-20">
+      <div className="container mx-auto px-8 md:px-20 pt-20">
         <div className="flex flex-col md:flex-row justify-between items-center gap-16">
           <div className="flex flex-col max-w-3xl">
             <motion.div
