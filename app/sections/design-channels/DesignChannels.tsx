@@ -26,16 +26,14 @@ export default function DesignChannels() {
           <motion.h2
             className="text-3xl md:text-5xl font-dmsans font-semibold text-white leading-tight mb-6"
           >
-            Lorem ipsum <span className="text-[#63B8E3]">dolor</span>, sit amet.
+            Recursos <span className="text-[#63B8E3]">essenciais</span> para<br/> seu servidor
           </motion.h2>
           <motion.p
             className="text-base md:text-xl font-dmsans font-normal mb-8 max-w-2xl text-[#A3A3A3]"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            egestas mauris ac odio rutrum gravida. Nullam vitae turpis semper,
-            tincidunt sem quis, dignissim libero. Vestibulum ante ipsum primis
-            in faucibus orci luctus et ultrices posuere cubilia curae; Donec
-            tempus dolor mi, id scelerisque tortor lobortis eget.
+            Acesse uma biblioteca completa de recursos, tutoriais e ferramentas 
+            para aprimorar seu servidor. Desde bots personalizados até guias 
+            de configuração avançada.
           </motion.p>
         </motion.div>
       </div>

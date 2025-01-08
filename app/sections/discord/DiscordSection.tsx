@@ -25,17 +25,15 @@ export default function DiscordSection() {
           <motion.h2 
             className="text-3xl md:text-5xl font-dmsans font-semibold text-white leading-tight mb-6"
           >
-            Lorem <span className="text-[#63B8E3]">ipsum dolor</span> sit amet.
+            Sua <span className="text-[#63B8E3]">comunidade</span> mais forte
           </motion.h2>
           
           <motion.p
             className="text-base md:text-xl font-dmsans font-normal mb-8 max-w-2xl text-[#A3A3A3]"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            egestas mauris ac odio rutrum gravida. Nullam vitae turpis semper,
-            tincidunt sem quis, dignissim libero. Vestibulum ante ipsum primis
-            in faucibus orci luctus et ultrices posuere cubilia curae; Donec
-            tempus dolor mi, id scelerisque tortor lobortis eget.
+            Junte-se a uma comunidade dedicada ao crescimento de servidores. 
+            Compartilhe experiências, descubra novas ferramentas e aprenda 
+            com outros administradores experientes.
           </motion.p>
          
           <motion.div className="flex justify-center md:justify-start">

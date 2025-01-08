@@ -36,8 +36,8 @@ export default function HeroSection() {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="text-5xl md:text-6xl font-dmsans font-semibold text-white leading-tight mb-8"
             >
-              <span className="text-[#63B8E3]">Lorem ipsum</span>
-              {" "}dolor sit amet consectetur.
+              <span className="text-[#63B8E3]">Potencialize</span>
+              {" "}seu servidor com nossa comunidade.
             </motion.h1>
 
             <motion.p
