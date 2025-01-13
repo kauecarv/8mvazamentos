@@ -28,7 +28,7 @@ export default function NavbarComponent() {
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.4 }}
       >
-        <Link href={'#discord'} className="items-center group z-50 gap-2 text-sm font-medium font-dmsans py-2 px-4 bg-transparent border border-[#63B8E3] text-white rounded-2xl transition-all duration-300 hover:-translate-y-1 hidden md:inline-flex">
+        <Link href={'https://discord.gg/tEeEgeXjcV'} className="items-center group z-50 gap-2 text-sm font-medium font-dmsans py-2 px-4 bg-transparent border border-[#63B8E3] text-white rounded-2xl transition-all duration-300 hover:-translate-y-1 hidden md:inline-flex">
           Junte-se a Comunidade
         </Link>
       </motion.div>

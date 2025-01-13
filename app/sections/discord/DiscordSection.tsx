@@ -37,7 +37,7 @@ export default function DiscordSection() {
           </motion.p>
          
           <motion.div className="flex justify-center md:justify-start">
-            <Link href="#discord" className="flex items-center group gap-2 w-fit text-sm font-medium font-dmsans py-2 px-4 bg-transparent border border-[#63B8E3] text-white rounded-2xl transition-all duration-300 hover:-translate-y-1">
+            <Link href="https://discord.gg/tEeEgeXjcV" className="flex items-center group gap-2 w-fit text-sm font-medium font-dmsans py-2 px-4 bg-transparent border border-[#63B8E3] text-white rounded-2xl transition-all duration-300 hover:-translate-y-1">
               <FaDiscord className="text-xl" />
               Conheça nosso Discord
             </Link>

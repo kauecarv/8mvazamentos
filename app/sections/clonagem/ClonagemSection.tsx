@@ -32,7 +32,7 @@ export default function ClonagemSection() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.4 }}
             >
-              <Link href="#discord" className="flex mx-auto md:mx-0 items-center group gap-2 w-fit text-sm font-medium font-dmsans py-2 px-4 bg-transparent border border-[#63B8E3] text-white rounded-2xl transition-all duration-300 hover:-translate-y-1">
+              <Link href="https://discord.gg/tEeEgeXjcV" className="flex mx-auto md:mx-0 items-center group gap-2 w-fit text-sm font-medium font-dmsans py-2 px-4 bg-transparent border border-[#63B8E3] text-white rounded-2xl transition-all duration-300 hover:-translate-y-1">
                 <FaDiscord className="text-xl" />
                 Conheça nosso Discord
               </Link>
